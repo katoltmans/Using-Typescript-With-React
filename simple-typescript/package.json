@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "tsc"
+        "build": "tsc",
+        "dev": "npx concurrently -k -n \"COMPILER,NODEMON\" -c \"yellow,blue\" \"tsc -w\" \"nodemon -w dist -q dist/index.js\""
     },
     "author": "",
     "license": "ISC",
