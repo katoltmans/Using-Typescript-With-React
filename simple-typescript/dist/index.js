@@ -23,15 +23,15 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-//Various options for naming imports
+// Various options for naming imports
 const multiply_1 = __importStar(require("./multiply"));
 //import * as multiplyModule from "./multiply";
 //import multiply, { multiplyByTwo } from "./multiply";
 //import { multiply, multiplyByTwo } from "./multiply";
-const a = 5;
-const b = 2;
-console.log(`${a} * ${b} = ${(0, multiply_1.default)(a, b)}`);
-//console.log(`${a} * ${b} = ${multiplyModule.default(a, b)}`);
+const num1 = 5;
+const num2 = 2;
+console.log(`${num1} * ${num2} = ${(0, multiply_1.default)(num1, num2)}`);
+//console.log(`${num1} * ${num2} = ${multiplyModule.default(num1, num2)}`);
 console.log((0, multiply_1.multiplyByTwo)(2));
 //multiplyModule.multiplyByTwo(2);
 //multiplyByTwo(2);
