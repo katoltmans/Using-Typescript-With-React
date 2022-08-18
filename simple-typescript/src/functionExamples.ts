@@ -4,8 +4,8 @@
 //     return a + (b || 0);
 // }
 
+//-both examples are ways to make b an optional parameter
 function sum(a: number, b: number = 0): number {
-    //-both examples are ways to make b an optional parameter
     return a + b;
 }
 
