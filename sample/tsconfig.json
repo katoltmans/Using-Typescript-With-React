@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "outDir": "dist" // STore compiled files in a different folder
+        "outDir": "dist", // Store compiled files in a different folder
+        "lib": ["dom", "esnext"],
+        "strictNullChecks": true
     },
     "include": ["**/*.ts"] // ** Any subfolder */.ts any file with the ts extension in the project
 }
