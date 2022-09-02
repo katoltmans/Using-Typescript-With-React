@@ -23,13 +23,13 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-//
+// When installing packages - install types from the DefinitelyTypes repo is the package does not come with native types
 {
-    /* to insure the types version of a package is downloaded, run:
+    /* To insure the types version of a package is downloaded, run:
 
 npm i -D @types/npm-package-name
 
 */
 }
-const React = __importStar(require("react"));
+const React = __importStar(require("react")); // (Installed with: npm i -D @types.react)
 React.someFn();
