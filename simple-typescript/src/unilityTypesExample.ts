@@ -96,6 +96,8 @@ paintStarship(1, "green"); // cannot be undefined
 // InstanceType<T> (Instance Generic Type): takes one generic parameter (type static method called)
 //     Allows a return the type of the static side of a class
 
+{
+    /*  CODE EXAMPLES:
 type Constructable<ClassInstance> = new (...args: any[]) => ClassInstance;
 
 function Deletable<BaseClass extends Constructable<{}>>(Base: BaseClass) {
@@ -127,9 +129,11 @@ class Profile {
 const profile = new Profile();
 profile.user = new DeletableUser("John");
 profile.car = new DeletableCar("Ferrari");
+*/
+}
 
 // ThisType<T> (Instance Generic Type): takes one generic parameter (type of property)
-//     Allows a marker to specify the type of a property in an object
+//     Allows a marker to specify the type of a property in an object - data and methods (D & M)
 
 interface MyObject {
     sayHello(): void;
